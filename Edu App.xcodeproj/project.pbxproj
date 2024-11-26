@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBA5AB32CF621600015FEAF /* Edu_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5AB22CF621600015FEAF /* Edu_AppApp.swift */; };
+		3FBA5AB52CF621600015FEAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5AB42CF621600015FEAF /* ContentView.swift */; };
+		3FBA5AB72CF621630015FEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA5AB62CF621630015FEAF /* Assets.xcassets */; };
+		3FBA5ABA2CF621630015FEAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA5AB92CF621630015FEAF /* Preview Assets.xcassets */; };
+		3FBA5AC42CF621640015FEAF /* Edu_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5AC32CF621640015FEAF /* Edu_AppTests.swift */; };
+		3FBA5ACE2CF621640015FEAF /* Edu_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5ACD2CF621640015FEAF /* Edu_AppUITests.swift */; };
+		3FBA5AD02CF621640015FEAF /* Edu_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5ACF2CF621640015FEAF /* Edu_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBA5AC02CF621640015FEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBA5AA72CF621600015FEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBA5AAE2CF621600015FEAF;
+			remoteInfo = "Edu App";
+		};
+		3FBA5ACA2CF621640015FEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBA5AA72CF621600015FEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBA5AAE2CF621600015FEAF;
+			remoteInfo = "Edu App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FBA5AAF2CF621600015FEAF /* Edu App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edu App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA5AB22CF621600015FEAF /* Edu_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edu_AppApp.swift; sourceTree = "<group>"; };
+		3FBA5AB42CF621600015FEAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FBA5AB62CF621630015FEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBA5AB92CF621630015FEAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FBA5ABF2CF621640015FEAF /* Edu AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edu AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA5AC32CF621640015FEAF /* Edu_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edu_AppTests.swift; sourceTree = "<group>"; };
+		3FBA5AC92CF621640015FEAF /* Edu AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edu AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA5ACD2CF621640015FEAF /* Edu_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edu_AppUITests.swift; sourceTree = "<group>"; };
+		3FBA5ACF2CF621640015FEAF /* Edu_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edu_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBA5AAC2CF621600015FEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBA5ABC2CF621640015FEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBA5AC62CF621640015FEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBA5AA62CF621600015FEAF = {
+			isa = PBXGroup;
+			children = (
+				3FBA5AB12CF621600015FEAF /* Edu App */,
+				3FBA5AC22CF621640015FEAF /* Edu AppTests */,
+				3FBA5ACC2CF621640015FEAF /* Edu AppUITests */,
+				3FBA5AB02CF621600015FEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBA5AB02CF621600015FEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA5AAF2CF621600015FEAF /* Edu App.app */,
+				3FBA5ABF2CF621640015FEAF /* Edu AppTests.xctest */,
+				3FBA5AC92CF621640015FEAF /* Edu AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBA5AB12CF621600015FEAF /* Edu App */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA5AB22CF621600015FEAF /* Edu_AppApp.swift */,
+				3FBA5AB42CF621600015FEAF /* ContentView.swift */,
+				3FBA5AB62CF621630015FEAF /* Assets.xcassets */,
+				3FBA5AB82CF621630015FEAF /* Preview Content */,
+			);
+			path = "Edu App";
+			sourceTree = "<group>";
+		};
+		3FBA5AB82CF621630015FEAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA5AB92CF621630015FEAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FBA5AC22CF621640015FEAF /* Edu AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA5AC32CF621640015FEAF /* Edu_AppTests.swift */,
+			);
+			path = "Edu AppTests";
+			sourceTree = "<group>";
+		};
+		3FBA5ACC2CF621640015FEAF /* Edu AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA5ACD2CF621640015FEAF /* Edu_AppUITests.swift */,
+				3FBA5ACF2CF621640015FEAF /* Edu_AppUITestsLaunchTests.swift */,
+			);
+			path = "Edu AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBA5AAE2CF621600015FEAF /* Edu App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBA5AD32CF621640015FEAF /* Build configuration list for PBXNativeTarget "Edu App" */;
+			buildPhases = (
+				3FBA5AAB2CF621600015FEAF /* Sources */,
+				3FBA5AAC2CF621600015FEAF /* Frameworks */,
+				3FBA5AAD2CF621600015FEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edu App";
+			productName = "Edu App";
+			productReference = 3FBA5AAF2CF621600015FEAF /* Edu App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FBA5ABE2CF621640015FEAF /* Edu AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBA5AD62CF621640015FEAF /* Build configuration list for PBXNativeTarget "Edu AppTests" */;
+			buildPhases = (
+				3FBA5ABB2CF621640015FEAF /* Sources */,
+				3FBA5ABC2CF621640015FEAF /* Frameworks */,
+				3FBA5ABD2CF621640015FEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBA5AC12CF621640015FEAF /* PBXTargetDependency */,
+			);
+			name = "Edu AppTests";
+			productName = "Edu AppTests";
+			productReference = 3FBA5ABF2CF621640015FEAF /* Edu AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FBA5AC82CF621640015FEAF /* Edu AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBA5AD92CF621640015FEAF /* Build configuration list for PBXNativeTarget "Edu AppUITests" */;
+			buildPhases = (
+				3FBA5AC52CF621640015FEAF /* Sources */,
+				3FBA5AC62CF621640015FEAF /* Frameworks */,
+				3FBA5AC72CF621640015FEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBA5ACB2CF621640015FEAF /* PBXTargetDependency */,
+			);
+			name = "Edu AppUITests";
+			productName = "Edu AppUITests";
+			productReference = 3FBA5AC92CF621640015FEAF /* Edu AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBA5AA72CF621600015FEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3FBA5AAE2CF621600015FEAF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3FBA5ABE2CF621640015FEAF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3FBA5AAE2CF621600015FEAF;
+					};
+					3FBA5AC82CF621640015FEAF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3FBA5AAE2CF621600015FEAF;
+					};
+				};
+			};
+			buildConfigurationList = 3FBA5AAA2CF621600015FEAF /* Build configuration list for PBXProject "Edu App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBA5AA62CF621600015FEAF;
+			productRefGroup = 3FBA5AB02CF621600015FEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBA5AAE2CF621600015FEAF /* Edu App */,
+				3FBA5ABE2CF621640015FEAF /* Edu AppTests */,
+				3FBA5AC82CF621640015FEAF /* Edu AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBA5AAD2CF621600015FEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBA5ABA2CF621630015FEAF /* Preview Assets.xcassets in Resources */,
+				3FBA5AB72CF621630015FEAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBA5ABD2CF621640015FEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBA5AC72CF621640015FEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBA5AAB2CF621600015FEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBA5AB52CF621600015FEAF /* ContentView.swift in Sources */,
+				3FBA5AB32CF621600015FEAF /* Edu_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBA5ABB2CF621640015FEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBA5AC42CF621640015FEAF /* Edu_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBA5AC52CF621640015FEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBA5ACE2CF621640015FEAF /* Edu_AppUITests.swift in Sources */,
+				3FBA5AD02CF621640015FEAF /* Edu_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBA5AC12CF621640015FEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBA5AAE2CF621600015FEAF /* Edu App */;
+			targetProxy = 3FBA5AC02CF621640015FEAF /* PBXContainerItemProxy */;
+		};
+		3FBA5ACB2CF621640015FEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBA5AAE2CF621600015FEAF /* Edu App */;
+			targetProxy = 3FBA5ACA2CF621640015FEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FBA5AD12CF621640015FEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FBA5AD22CF621640015FEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FBA5AD42CF621640015FEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Edu App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Gibson.Danielle.Edu-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FBA5AD52CF621640015FEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Edu App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Gibson.Danielle.Edu-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FBA5AD72CF621640015FEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Gibson.Danielle.Edu-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edu App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Edu App";
+			};
+			name = Debug;
+		};
+		3FBA5AD82CF621640015FEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Gibson.Danielle.Edu-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edu App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Edu App";
+			};
+			name = Release;
+		};
+		3FBA5ADA2CF621640015FEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Gibson.Danielle.Edu-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Edu App";
+			};
+			name = Debug;
+		};
+		3FBA5ADB2CF621640015FEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Gibson.Danielle.Edu-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Edu App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBA5AAA2CF621600015FEAF /* Build configuration list for PBXProject "Edu App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBA5AD12CF621640015FEAF /* Debug */,
+				3FBA5AD22CF621640015FEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBA5AD32CF621640015FEAF /* Build configuration list for PBXNativeTarget "Edu App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBA5AD42CF621640015FEAF /* Debug */,
+				3FBA5AD52CF621640015FEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBA5AD62CF621640015FEAF /* Build configuration list for PBXNativeTarget "Edu AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBA5AD72CF621640015FEAF /* Debug */,
+				3FBA5AD82CF621640015FEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBA5AD92CF621640015FEAF /* Build configuration list for PBXNativeTarget "Edu AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBA5ADA2CF621640015FEAF /* Debug */,
+				3FBA5ADB2CF621640015FEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBA5AA72CF621600015FEAF /* Project object */;
+}
